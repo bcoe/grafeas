@@ -21,8 +21,8 @@ import (
 	"strings"
 	"sync"
 
-	pb "github.com/grafeas/grafeas/proto/v1beta1/grafeas_go_proto"
-	prpb "github.com/grafeas/grafeas/proto/v1beta1/project_go_proto"
+	pb "github.com/grafeas/grafeas/proto/v1/grafeas_go_proto"
+	prpb "github.com/grafeas/grafeas/proto/v1/project_go_proto"
 	"github.com/grafeas/grafeas/samples/server/go-server/api/server/name"
 	"github.com/grafeas/grafeas/server-go"
 	opspb "google.golang.org/genproto/googleapis/longrunning"

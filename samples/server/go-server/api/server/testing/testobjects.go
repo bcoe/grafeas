@@ -21,11 +21,11 @@ import (
 	"github.com/golang/protobuf/ptypes/any"
 	"log"
 
-	cpb "github.com/grafeas/grafeas/proto/v1beta1/common_go_proto"
-	pb "github.com/grafeas/grafeas/proto/v1beta1/grafeas_go_proto"
-	pkgpb "github.com/grafeas/grafeas/proto/v1beta1/package_go_proto"
-	vpb "github.com/grafeas/grafeas/proto/v1beta1/vulnerability_go_proto"
-	v1pb "github.com/grafeas/grafeas/v1alpha1/proto"
+	cpb "github.com/grafeas/grafeas/proto/v1/common_go_proto"
+	pb "github.com/grafeas/grafeas/proto/v1/grafeas_go_proto"
+	pkgpb "github.com/grafeas/grafeas/proto/v1/package_go_proto"
+	vpb "github.com/grafeas/grafeas/proto/v1/vulnerability_go_proto"
+	v1pb "github.com/grafeas/grafeas/v1/proto"
 	opspb "google.golang.org/genproto/googleapis/longrunning"
 )
 

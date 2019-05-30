@@ -18,10 +18,10 @@ import (
 	"flag"
 	"log"
 
-	"github.com/grafeas/grafeas/samples/server/go-server/api/server/api"
-	"github.com/grafeas/grafeas/samples/server/go-server/api/server/config"
-	"github.com/grafeas/grafeas/samples/server/go-server/api/server/storage"
-	server "github.com/grafeas/grafeas/server-go"
+	"github.com/bcoe/grafeas/samples/server/go-server/api/server/api"
+	"github.com/bcoe/grafeas/samples/server/go-server/api/server/config"
+	"github.com/bcoe/grafeas/samples/server/go-server/api/server/storage"
+	server "github.com/bcoe/grafeas/server-go"
 )
 
 var (
